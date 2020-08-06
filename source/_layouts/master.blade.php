@@ -24,7 +24,7 @@
         @endif
 
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <link rel="stylesheet" href="{{ $page->baseUrl }}{{ mix('css/main.css', 'assets/build') }}">
          <!-- Place your kit's code here -->
          <script src="https://kit.fontawesome.com/4cefca3d5b.js" crossorigin="anonymous"></script>
     </head>
@@ -33,12 +33,12 @@
         <header class="flex items-center shadow bg-white border-b h-24 py-4" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
-                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img class="h-20 md:h-24 mr-3" src="/assets/img/llc_builders_logo.jpg" alt="{{ $page->siteName }} logo" />
+                    <a href="{{ $page->baseUrl }}" title="{{ $page->siteName }} home" class="inline-flex items-center">
+                        <img class="h-20 md:h-24 mr-3" src="{{ $page->baseUrl }}/assets/img/llc_builders_logo.jpg" alt="{{ $page->siteName }} logo" />
                     </a>
                 </div>
 
-                <div id="vue-search" class="flex flex-1 justify-end items-center">
+                <div class="flex flex-1 justify-end items-center">
 
                     @include('_nav.menu')
 
@@ -62,7 +62,7 @@
             </ul>
         </footer>
 
-        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
+        <script src="{{ $page->baseUrl }}{{ mix('js/main.js', 'assets/build') }}"></script>
 
         @stack('scripts')
     </body>

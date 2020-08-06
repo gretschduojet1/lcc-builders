@@ -6,21 +6,29 @@
                     Our Projects
                 </h3>
             </div>
-            <div class="filters" v-bind:key="filter.title" v-for="filter in filters">
-                <span class="filter" v-bind:class="{ active: currentFilter === filter.title }" v-on:click="setFilter(filter.title)">{{filter.title}}</span>
+            <div class="filters flex flex-wrap mx-auto mb-8">
+				<div v-bind:key="filter.title" v-for="filter in filters">
+                	<span class="filter w-full text-sm lg:w-1/4 pl-2 pr-2 cursor-pointer hover:bg-yellow-500 rounded-lg" v-bind:class="{ active: currentFilter === filter.title }" v-on:click="setFilter(filter.title)">{{filter.title}}</span>
+				</div>
             </div>
         </div>
         <transition-group class="projects" name="projects" >
             <div class="project" v-bind:key="project.title" v-for="project in filteredProjects">
-				<h4>{{project.title}}</h4>
-				<p>Category: <span>{{project.category}}</span></p>
-				<div class="flex flex-wrap" >
-					<div class="w-full lg:w-1/3 max-w-sm m-2 mb-2" v-for="index in project.galleryImageCount" :key="index">
-						<img class="w-full h-64 object-cover" v-bind:src="buildThumbnailPath(project.galleryDirectory, index)">
+				<h4 class="leading-tight mb-0">{{project.title}}</h4>
+				<p class="mt-0 mb-4"><span class="text-xs bg-yellow-500 p-1 rounded-lg">{{project.category}}</span></p>
+				<div class="flex-no-wrap lg:flex lg:flex-wrap mb-12" >
+					<div class="w-full md:w-1/3 max-w-sm m-2 mb-2" v-for="index in project.galleryImageCount" :key="index">
+						<img class="w-full h-64 object-cover cursor-pointer" v-bind:src="buildThumbnailPath(project.galleryDirectory, index)" @click="openLightBox(project.galleryDirectory, index)">
 					</div>
 				</div>
             </div>
         </transition-group>
+		<div x-show.transition.opacity="open" v-if="this.open" class="p-4 fixed flex justify-center items-center inset-0 bg-black bg-opacity-75 z-50">
+			<div x-show.transition="open" class="container max-w-3xl max-h-full shadow-lg overflow-auto clearfix">
+				<div class="text-yellow-500 font-bold cursor-pointer float-right" @click="closeLightBox()">X Close</div>
+				<img class="w-full rounded-lg" v-bind:src="this.lightBoxImage" alt="">
+			</div>
+		</div>
     </div>
 </template>
 
@@ -30,9 +38,11 @@ export default {
     data() {
         return {
 		currentFilter: 'ALL',
-		imagePath: '/assets/images/gallery/',
+		imagePath: 'https://gretschduojet1.github.io/lcc-builders/assets/images/gallery/',
 		thumbName: '/lcc_builders_gallery_thumb_',
-		imageName: '/lcc_builders_gallery_thumb_',
+		imageName: '/lcc_builders_gallery_',
+		open: false,
+		lightBoxImage: '',
 
 		filters: [
 			{title: 'ALL'},
@@ -58,9 +68,15 @@ export default {
 		},
 		buildThumbnailPath: function(directory, index) {
 			return this.imagePath + directory + '/thumbs/' + this.thumbName + index + '.jpg';
-			
+		},
+		openLightBox(directory, index) {
+			this.open = !this.open;
+			this.lightBoxImage = this.imagePath + directory + '/' + this.imageName + index + '.jpg';
+			console.log(this.lightBoxImage);
+		},
+		closeLightBox() {
+			this.open = !this.open;
 		}
-	
     },
     computed: {
         filteredProjects: function() {
@@ -79,21 +95,6 @@ export default {
 	align-items:center;
 }
 
-.filter {
-	font-family:arial;
-	padding: 6px 6px;
-	cursor:pointer;
-	border-radius: 6px;
-	transition: all 0.35s;
-}
-
-.filter.active {
-	box-shadow:0px 1px 3px 0px #00000026;
-}
-
-.filter:hover {
-	background:lightgray;
-} 
 
 
 .projects-enter {

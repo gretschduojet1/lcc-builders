@@ -1,10 +1,11 @@
 ---
-extends: _layouts.post
 section: content
-title: Project 4
-date: 2020-04-05
-description: This is project 4, major project - the best project!
+title: New Project
+date: 2020-07-05
+description: New Project - give me some short details about this project and what makes it interesting
 categories: [configuration, feature]
+featured: true
+cover_image: https://media.istockphoto.com/photos/tall-buildings-under-construction-and-cranes-in-new-york-city-picture-id498867062
 ---
 
 This starter template includes a custom __404 Not Found__ error page, located at `/source/404.blade.php`. [To preview the 404 page](/404), you can visit `/404` in your browser.

@@ -1,10 +1,11 @@
 ---
-extends: _layouts.post
 section: content
-title: Custom 404 Pages
-date: 2018-12-23
-description: Add a custom 404 page is easy with Jigsaw
+title: Beachside Restaurant 
+date: 2020-03-05
+description: Beachside Restaurant project - give me some short details about this project and what makes it interesting
 categories: [configuration, feature]
+featured: true
+cover_image: https://gretschduojet1.github.io/lcc-builders/assets/images/gallery/beachside_restaurant/lcc_builders_gallery_5.jpg
 ---
 
 This starter template includes a custom __404 Not Found__ error page, located at `/source/404.blade.php`. [To preview the 404 page](/404), you can visit `/404` in your browser.

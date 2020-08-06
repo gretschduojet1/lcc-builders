@@ -1,11 +1,10 @@
 ---
-extends: _layouts.post
 section: content
 title: Anaheim Hilton
 date: 2020-03-05
 description: Anaheim Hilton project - give me some short details about this project and what makes it interesting
 categories: [configuration, feature]
-featured: true
+featured: false
 cover_image: https://media.istockphoto.com/photos/tall-buildings-under-construction-and-cranes-in-new-york-city-picture-id498867062
 ---
 

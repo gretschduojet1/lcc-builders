@@ -2,7 +2,6 @@ window.axios = require('axios');
 window.fuse = require('fuse.js');
 window.Vue = require('vue');
 
-import Search from './components/Search.vue';
 import hljs from 'highlight.js/lib/highlight';
 import Gallery from './components/Gallery.vue';
 import Vue from 'vue';
@@ -28,7 +27,7 @@ Vue.config.productionTip = false;
 
 new Vue({
     components: {
-        Gallery,
+        Gallery
     },
 }).$mount('#app');
 

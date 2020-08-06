@@ -18,8 +18,8 @@
 
         <p class="mb-6 text-xl md:text-base">
             LCC Builders was founded when James Leonard decided to embark on a new chapter of his life and form his 
-            owncommercial construction company, parting ways with a very successful 24-year run with Magnum Builders Inc.  
-            Through those years, Mr. Leonard had theprivilege to learn much from his partnerand mentor, Ernesto Magana, 
+            own commercial construction company, parting ways with a very successful 24-year run with Magnum Builders Inc.  
+            Through those years, Mr. Leonard had the privilege to learn much from his partner and mentor, Ernesto Magana, 
             owner of Magnum Builders, Inc.
         </p>
 
@@ -31,19 +31,19 @@
 
         <p class="mb-6 text-xl md:text-base">
             With the utilization of RedTeam Construction Software, the communication between field and office, as well as 
-            overall project management, has been extremelyefficient.  Companies utilizing the newer construction management 
-            software are more productivewith better quality control than those whom haven’t made the transition.
+            overall project management, has been extremely efficient.  Companies utilizing the newer construction management 
+            software are more productive with better quality control than those whom haven’t made the transition.
         </p>
 
         <p class="mb-6 text-xl md:text-base">
             After a little over a year in business, LCC Builders, has completed a multitude of projects successfully with 
             grateful clients.  We have built up our office and crews with quality personnel, all while keeping within the 
-            parameters of our business magnificationplan.  Most of our staff emanatedfrom previous relationships and work 
+            parameters of our business magnification plan.  Most of our staff emanated from previous relationships and work 
             experience with James Leonard and Cameron Crisfield.
         </p>
 
         <p class="mb-6 text-xl md:text-base">
-            We are excited to see that the future holds for us, and hope you will decide to become a partof our future.
+            We are excited to see that the future holds for us, and hope you will decide to become a part of our future.
         </p>
     </div>
 @endsection

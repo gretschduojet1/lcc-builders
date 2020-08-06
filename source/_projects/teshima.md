@@ -1,11 +1,10 @@
 ---
-extends: _layouts.post
 section: content
 title: Teshima
 date: 2020-02-05
 description: Teshima project - give me some short details about this project and what makes it interesting
 categories: [configuration, feature]
-featured: true
+featured: false
 cover_image: https://media.istockphoto.com/photos/large-construction-site-including-several-cranes-with-lots-of-gold-picture-id1176603580?s=2048x2048
 ---
 
