@@ -8,13 +8,17 @@
 @endpush
 
 @section('body')
-    <div class="container mx-auto py-8 px-8">
-        <h1>Services</h1>
-
-        <img src="https://media.istockphoto.com/vectors/construction-worker-avatar-flat-icon-flat-vector-illustration-symbol-vector-id1213274762"
-            alt="About image"
-            class="flex rounded-full h-64 w-64 bg-contain mx-auto md:float-right my-6 md:ml-10">
-
+    <div style="background: urL(https://image.shutterstock.com/image-photo/engineering-consulting-people-on-construction-600w-667100452.jpg); background-size:cover; background-position: center;" class="w-full h-52 mb-12">
+        <div class="container mx-auto flex py-16 px-6">
+            <div class="w-full lg:w-1/2 bg-gray-900 p-8 bg-opacity-75 border border-yellow-500">
+                <h4 class="text-yellow-500 text-5xl font-bold">Services</h4>
+                <p class="text-white">
+                    With the office and technical experience to go along with the field management and scheduling expertise to form a dominant team.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto px-8">
         <p class="mb-6 text-xl md:text-base">
             A more incipient collective of experienced individuals coming together to form LCC Builders. LCC Builders came 
             together with the office and technical experience to go along with the field management and scheduling expertise 

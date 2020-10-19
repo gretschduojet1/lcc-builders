@@ -8,14 +8,18 @@
 @endpush
 
 @section('body')
-
-    <div class="container mx-auto py-8 px-8">
-        <h1>About Us</h1>
-
-        <img src="https://media.istockphoto.com/vectors/-vector-id860428936"
-            alt="About image"
-            class="flex rounded-full h-64 w-64 bg-contain mx-auto md:float-right my-6 md:ml-10">
-
+    <div style="background: urL(https://image.shutterstock.com/image-photo/concept-architectsengineer-holding-pen-pointing-600w-740754769.jpg); background-size:cover; background-position: center;" class="w-full h-52 mb-12">
+        <div class="container mx-auto flex py-16 px-6">
+            <div class="w-full lg:w-1/2 bg-gray-900 p-8 bg-opacity-75 border border-yellow-500">
+                <h4 class="text-yellow-500 text-5xl font-bold">About Us</h4>
+                <p class="text-white">
+                    Our goal then and now is to provide quality on time projects.  Learn how our years of experience can help
+                    you on your next project. 
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto px-8">
         <p class="mb-6 text-xl md:text-base">
             LCC Builders was founded when James Leonard decided to embark on a new chapter of his life and form his 
             own commercial construction company, parting ways with a very successful 24-year run with Magnum Builders Inc.  
