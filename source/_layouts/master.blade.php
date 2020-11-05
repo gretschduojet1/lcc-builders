@@ -30,15 +30,15 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-        <header class="flex items-center shadow bg-white border-b h-24 py-4" role="banner">
+        <header class="flex items-center shadow border-b h-24 py-4" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
-                <div class="flex items-center">
+                <div class="flex items-center bg-white">
                     <a href="{{ $page->baseUrl }}" title="{{ $page->siteName }} home" class="inline-flex items-center">
                         <img class="h-20 md:h-24 mr-3" src="{{ $page->baseUrl }}/assets/img/llc_builders_logo.jpg" alt="{{ $page->siteName }} logo" />
                     </a>
                 </div>
 
-                <div class="flex flex-1 justify-end items-center">
+                <div class="flex flex-1 justify-end items-center min-h-screen">
 
                     @include('_nav.menu')
 
@@ -54,10 +54,10 @@
             </main>
         </div>  
 
-        <footer class="bg-white text-center text-sm py-4" role="contentinfo">
+        <footer class="text-center text-sm py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none">
                 <li class="md:mr-2">
-                    &copy; <a href="https://tighten.co" title="Tighten website">{{ $page->siteName }}</a> {{ date('Y') }}.
+                    &copy; <a href="https://tighten.co" title="{{ $page->siteName }} website">{{ $page->siteName }}</a> {{ date('Y') }}.
                 </li>
             </ul>
         </footer>

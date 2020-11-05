@@ -1,6 +1,9 @@
 module.exports = {
   theme: {
     extend: {
+      colors:{
+        llcblue: '#233d88'
+      },
       fontFamily: {
         sans: [
           'Nunito Sans'

@@ -2,7 +2,7 @@
 section: content
 title: Beachside Restaurant 
 date: 2020-03-05
-description: Beachside Restaurant project - give me some short details about this project and what makes it interesting
+description: Interior and patio remodel of high end restaurant on the bay at the Jamaica Bay Inn in Marina Del Rey.
 categories: [configuration, feature]
 featured: true
 cover_image: https://gretschduojet1.github.io/lcc-builders/assets/images/gallery/beachside_restaurant/lcc_builders_gallery_5.jpg

@@ -1,8 +1,8 @@
 ---
 section: content
-title: RKE
+title: RKE – Accounting Offices
 date: 2020-03-05
-description: RKE project - give me some short details about this project and what makes it interesting
+description: Complete buildout of 1st and 2nd floor offices, restrooms and kitchen.
 categories: [configuration, feature]
 featured: true
 cover_image: https://gretschduojet1.github.io/lcc-builders/assets/images/gallery/RKE/lcc_builders_gallery_1.jpg

@@ -1,8 +1,8 @@
 ---
 section: content
-title: New Project
+title: ABPM – Medical Offices
 date: 2020-07-05
-description: New Project - give me some short details about this project and what makes it interesting
+description: <strong>Phase 1</strong> – Complete Exterior remodel. <br/><strong>Phase 2</strong> – Interior remodel and 1st floor addition and parking lot improvements.  Phase 2 to begin December 2020.
 categories: [configuration, feature]
 featured: true
 cover_image: https://media.istockphoto.com/photos/tall-buildings-under-construction-and-cranes-in-new-york-city-picture-id498867062

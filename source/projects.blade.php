@@ -13,7 +13,7 @@
     <div class="container mx-auto flex py-16 px-6">
         <div class="w-full lg:w-1/2 bg-gray-900 p-8 bg-opacity-75 border border-yellow-500">
             <h4 class="text-yellow-500 text-5xl font-bold">Our Work</h4>
-            <p class="text-white">Paetos dignissim at cursus elefeind norma arcu. Pellentesque mode accumsan est in tempus, etos at ullamcorper quam suscipit lacus maecenas tortor. Erates vitae node metus. Suspendisse est gravida ornare.</p>
+            <p class="text-white">From Medical, Restaurant, Hospitality, Campus Maintenance Construction and Office Tenant Improvement, we do it all.  All projects shown were managed by LCC Builders personnel.</p>
         </div>
     </div>
 </div>

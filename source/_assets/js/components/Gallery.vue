@@ -52,13 +52,14 @@ export default {
 			{title: 'HOTEL'}
 		],
 		projects: [
-			{title: "TK Medical", image: "https://picsum.photos/g/200?image=122", galleryDirectory: 'tk_medical', galleryImageCount: 7, category: 'MEDICAL'},
-			{title: "Teshima", image: "https://picsum.photos/g/200?image=116", galleryDirectory: 'teshima', galleryImageCount: 2, category: 'OFFICE'},
-			{title: "Sunsets, Inc.", image: "https://picsum.photos/g/200?image=121", galleryDirectory: 'sunsets_inc', galleryImageCount: 16, category: 'OFFICE'},
-			{title: "RKE", image: "https://picsum.photos/g/200?image=133", galleryDirectory: 'RKE', galleryImageCount: 8, category: 'OFFICE'},
+			{title: "ABPM Medical Offices", image: "https://picsum.photos/g/200?image=133", galleryDirectory: 'abpm', galleryImageCount: 17, category: 'MEDICAL'},
+			{title: "RKE - Torrance, CA", image: "https://picsum.photos/g/200?image=133", galleryDirectory: 'RKE', galleryImageCount: 8, category: 'OFFICE'},
+			{title: "Teshima – Marina Del Rey, CA", image: "https://picsum.photos/g/200?image=116", galleryDirectory: 'teshima', galleryImageCount: 2, category: 'OFFICE'},
 			{title: "Beachside Restaurant", image: "https://picsum.photos/g/200?image=134", galleryDirectory: 'beachside_restaurant', galleryImageCount: 5, category: 'RESTAURANT'},
-			{title: "Anaheim Hilton", image: "https://picsum.photos/g/200?image=115", galleryDirectory: 'anaheim_hilton', galleryImageCount: 3, category: 'HOTEL'},
-			{title: "1601 PCH", image: "https://picsum.photos/g/200", galleryDirectory: '1601_pch', galleryImageCount: 19, category: 'HOTEL'},
+			{title: "Anaheim Hilton – Anaheim, CA", image: "https://picsum.photos/g/200?image=115", galleryDirectory: 'anaheim_hilton', galleryImageCount: 3, category: 'HOTEL'},
+			{title: "1601 PCH – Hermosa Beach, CA", image: "https://picsum.photos/g/200", galleryDirectory: '1601_pch', galleryImageCount: 19, category: 'HOTEL'},
+			{title: "TK Medical – Torrance, CA", image: "https://picsum.photos/g/200?image=122", galleryDirectory: 'tk_medical', galleryImageCount: 7, category: 'MEDICAL'},
+			{title: "Sunsets, Inc. – Harbor City, CA", image: "https://picsum.photos/g/200?image=121", galleryDirectory: 'sunsets_inc', galleryImageCount: 16, category: 'OFFICE'}
 		],
 
 	}},
