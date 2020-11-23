@@ -52,7 +52,7 @@ export default {
 			{title: 'HOTEL'}
 		],
 		projects: [
-			{title: "ABPM Medical Offices", image: "https://picsum.photos/g/200?image=133", galleryDirectory: 'abpm', galleryImageCount: 17, category: 'MEDICAL'},
+			{title: "ABPM Medical Offices - Torrance, CA", image: "https://picsum.photos/g/200?image=133", galleryDirectory: 'abpm', galleryImageCount: 17, category: 'MEDICAL'},
 			{title: "RKE - Torrance, CA", image: "https://picsum.photos/g/200?image=133", galleryDirectory: 'RKE', galleryImageCount: 8, category: 'OFFICE'},
 			{title: "Teshima – Marina Del Rey, CA", image: "https://picsum.photos/g/200?image=116", galleryDirectory: 'teshima', galleryImageCount: 2, category: 'OFFICE'},
 			{title: "Beachside Restaurant", image: "https://picsum.photos/g/200?image=134", galleryDirectory: 'beachside_restaurant', galleryImageCount: 5, category: 'RESTAURANT'},

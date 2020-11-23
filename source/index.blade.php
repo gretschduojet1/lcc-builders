@@ -43,7 +43,7 @@
     <div class="container mx-auto flex-no-wrap md:flex mb-0 py-8 px-8 border-t">
         <div class="w-full flex-no-wrap lg:flex">
             <div class="w-full mb-8 lg:w-1/3">
-                <img src="https://media.istockphoto.com/photos/architectural-equipment-at-construction-site-picture-id936384788" alt="">
+                <img src="https://media.istockphoto.com/photos/architect-workplace-smartphone-with-black-blank-screen-project-and-picture-id1031809498?s=2048x2048" alt="Our goal then and now is to provide quality on time projects.">
             </div>
             <div class="w-full lg:w-2/3 lg:mx-4 lg:mr-auto lg:pl-8">
                 <p class="text-black text-3xl lg:text-4xl font-bold mb-0 mt-0 py-0 leading-tight">Our goal then and now is to provide quality on time projects.</p>
