@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-    <div class="flex bg-primary-900 bg-cover bg-center pt-12 md:pt-24" style="background-image: url('https://media.istockphoto.com/photos/professional-engineer-architect-worker-with-protective-helmet-and-picture-id1041465228');box-shadow: inset 0 0 0 100vw rgba(7, 25, 43, 0.40);">
+    <div class="flex bg-primary-900 bg-cover bg-center pt-12 md:pt-24" style="background-image: url('{{ $page->baseUrl }}/assets/img/construction_foreman_homepage_banner.jpg');box-shadow: inset 0 0 0 100vw rgba(7, 25, 43, 0.40);">
         <div class="container mx-auto">
             <div class="w-full md:w-3/4 mx-auto lg:py-24 py-2 text-center">
                 <h1 class="text-4xl lg:text-5xl mb-5 lg:mt-5 text-yellow-500">PROVIDING INDUSTRY LEADING<br/>CONSTRUCTION SOLUTIONS</h1>
@@ -43,10 +43,10 @@
     <div class="container mx-auto flex-no-wrap md:flex mb-0 py-8 px-8 border-t">
         <div class="w-full flex-no-wrap lg:flex">
             <div class="w-full mb-8 lg:w-1/3">
-                <img src="https://media.istockphoto.com/photos/architect-workplace-smartphone-with-black-blank-screen-project-and-picture-id1031809498?s=2048x2048" alt="Our goal then and now is to provide quality on time projects.">
+                <img src="{{ $page->baseUrl }}/assets/img/construction_workstation_homepage.jpg" alt="Our goal then and now is to provide quality on time projects.">
             </div>
             <div class="w-full lg:w-2/3 lg:mx-4 lg:mr-auto lg:pl-8">
-                <p class="text-black text-3xl lg:text-4xl font-bold mb-0 mt-0 py-0 leading-tight">Our goal then and now is to provide quality on time projects.</p>
+                <p class="text-gray-700 text-3xl lg:text-4xl font-bold mb-0 mt-0 py-0 leading-tight">Our goal then and now is to provide quality, on time projects.</p>
                 <p>
                     The key to a successful project is the preparation.  Hard work at the front end of a project usually dictates the 
                     success of a project. This has become a mission at LCC Builders, to start off each project making sure all the boxes 

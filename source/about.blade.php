@@ -8,7 +8,7 @@
 @endpush
 
 @section('body')
-    <div style="background: url(https://media.istockphoto.com/photos/laborers-working-on-modern-constraction-site-works-in-dubai-fast-picture-id1205700615?s=2048x2048); background-size:cover; background-position: center -68px;" class="w-full h-52 mb-12">
+    <div style="background: url({{ $page->baseUrl }}/assets/img/scaffolding_about_banner.jpg); background-size:cover; background-position: center -68px;" class="w-full h-52 mb-12">
         <div class="container mx-auto flex py-16 px-6">
             <div class="w-full lg:w-1/2 bg-gray-900 p-8 bg-opacity-75 border border-yellow-500">
                 <h4 class="text-yellow-500 text-5xl font-bold">About Us</h4>
