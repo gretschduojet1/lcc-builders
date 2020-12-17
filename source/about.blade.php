@@ -40,7 +40,7 @@
         </p>
 
         <p class="mb-6 text-xl md:text-base">
-            After a little over a year in business, LCC Builders, has completed a multitude of projects successfully with 
+            After a couple years in business, LCC Builders, has completed a multitude of projects successfully with 
             grateful clients.  We have built up our office and crews with quality personnel, all while keeping within the 
             parameters of our business magnification plan.  Most of our staff emanated from previous relationships and work 
             experience with James Leonard and Cameron Crisfield.
