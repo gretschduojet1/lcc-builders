@@ -27,6 +27,16 @@
         <link rel="stylesheet" href="{{ $page->baseUrl }}{{ mix('css/main.css', 'assets/build') }}">
          <!-- Place your kit's code here -->
          <script src="https://kit.fontawesome.com/4cefca3d5b.js" crossorigin="anonymous"></script>
+
+         <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-892QXTLYMG"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-892QXTLYMG');
+        </script>
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-white text-gray-800 leading-normal font-sans">

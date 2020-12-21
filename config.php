@@ -3,8 +3,8 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'http://localhost:3000/',
-    'production' => false,
+    'baseUrl' => 'http://lccbldr.com',
+    'production' => true,
     'siteName' => 'LCC Builders',
     'siteDescription' => 'Our goal at LCC Builders is to lend our construction knowledge and management expertise to our clients for continuous and successful relationships.',
     'siteAuthor' => 'Brett Forath',

@@ -5,7 +5,7 @@ date: 2020-03-05
 description: Complete buildout of 1st and 2nd floor offices, restrooms and kitchen.
 categories: [configuration, feature]
 featured: true
-cover_image: https://gretschduojet1.github.io/lcc-builders/assets/images/gallery/RKE/lcc_builders_gallery_1.jpg
+cover_image: http://lccbldr.com/assets/images/gallery/RKE/lcc_builders_gallery_1.jpg
 ---
 
 This starter template includes a custom __404 Not Found__ error page, located at `/source/404.blade.php`. [To preview the 404 page](/404), you can visit `/404` in your browser.

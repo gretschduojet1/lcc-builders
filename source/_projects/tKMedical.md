@@ -5,7 +5,7 @@ date: 2020-01-05
 description: TK Med project - give me some short details about this project and what makes it interesting
 categories: [configuration, feature]
 featured: false
-cover_image: https://gretschduojet1.github.io/lcc-builders/assets/images/gallery/RKE/lcc_builders_gallery_1.jpg
+cover_image: http://lccbldr.com/assets/images/gallery/RKE/lcc_builders_gallery_1.jpg
 ---
 
 This starter template includes a custom __404 Not Found__ error page, located at `/source/404.blade.php`. [To preview the 404 page](/404), you can visit `/404` in your browser.
