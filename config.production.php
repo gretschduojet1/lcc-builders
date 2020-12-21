@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://gretschduojet1.github.io/lcc-builders',
+    'baseUrl' => 'http://lccbldr.com',
     'production' => true,
 ];
