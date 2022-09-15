@@ -5,7 +5,7 @@ date: 2020-07-05
 description: <strong>Phase 1</strong> – Complete Exterior remodel. <br/><strong>Phase 2</strong> – Interior remodel and 1st floor addition and parking lot improvements.  Phase 2 to begin December 2020.
 categories: [configuration, feature]
 featured: true
-cover_image: http://lccbldr.com/assets/images/gallery/abpm/thumbs//lcc_builders_gallery_thumb_9.jpg
+cover_image: https://lccbldr.com/assets/images/gallery/abpm/thumbs//lcc_builders_gallery_thumb_9.jpg
 ---
 
 This starter template includes a custom __404 Not Found__ error page, located at `/source/404.blade.php`. [To preview the 404 page](/404), you can visit `/404` in your browser.

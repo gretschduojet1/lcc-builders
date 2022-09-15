@@ -5,7 +5,7 @@ date: 2020-03-05
 description: Interior and patio remodel of high end restaurant on the bay at the Jamaica Bay Inn in Marina Del Rey.
 categories: [configuration, feature]
 featured: true
-cover_image: http://lccbldr.com/assets/images/gallery/beachside_restaurant/lcc_builders_gallery_5.jpg
+cover_image: https://lccbldr.com/assets/images/gallery/beachside_restaurant/lcc_builders_gallery_5.jpg
 ---
 
 This starter template includes a custom __404 Not Found__ error page, located at `/source/404.blade.php`. [To preview the 404 page](/404), you can visit `/404` in your browser.

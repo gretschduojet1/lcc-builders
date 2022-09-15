@@ -21,33 +21,42 @@
     </div>
     <div class="container mx-auto px-8">
         <p class="mb-6 text-xl md:text-base">
-            LCC Builders was founded when James Leonard decided to embark on a new chapter of his life and form his 
-            own commercial construction company, parting ways with a very successful 24-year run with Magnum Builders Inc.  
-            Through those years, Mr. Leonard had the privilege to learn much from his partner and mentor, Ernesto Magana, 
-            owner of Magnum Builders, Inc.
+            LCC Builders is a Torrance-based general contracting and construction management firm recognized for reliability 
+            and customer loyalty. The firm is known for Complete remodels, Tenant Improvement, Medical, Restaurant, and 
+            Hospitality Projects.
         </p>
 
         <p class="mb-6 text-xl md:text-base">
-            Once Mr. Leonard founded LCC Builders, Cameron Crisfield joined forces to run the field crews and projects.  
-            A great partnership was formed with both having their own expertise but same goal, to take care of our clients 
-            first and foremost.
+            LCC Builders was founded when James Leonard decided to embark on a new chapter of his life and form his own commercial 
+            construction company, parting ways with a very successful 24-year run with Magnum Builders Inc. Through those years, 
+            Mr. Leonard had the privilege to learn much from his partner and mentor, Ernesto Magana, owner of Magnum Builders, Inc.
         </p>
 
         <p class="mb-6 text-xl md:text-base">
-            With the utilization of RedTeam Construction Software, the communication between field and office, as well as 
-            overall project management, has been extremely efficient.  Companies utilizing the newer construction management 
-            software are more productive with better quality control than those whom haven’t made the transition.
+            Mr. Leonard was intent on building a professional staff that is committed to excellence in construction and customer service. 
+            We have built up an office and crews with quality personnel many of which had previous work relationships with Mr. Leonard.
         </p>
 
         <p class="mb-6 text-xl md:text-base">
-            After a couple years in business, LCC Builders, has completed a multitude of projects successfully with 
-            grateful clients.  We have built up our office and crews with quality personnel, all while keeping within the 
-            parameters of our business magnification plan.  Most of our staff emanated from previous relationships and work 
-            experience with James Leonard and Cameron Crisfield.
+            We take pride in providing full-service contracting capabilities to our clients while maintaining a hands-on 
+            approach to project management. Every project receives our personal attention to budgets, scheduling, details, 
+            quality, and supervision.
         </p>
 
         <p class="mb-6 text-xl md:text-base">
-            We are excited to see that the future holds for us, and hope you will decide to become a part of our future.
+            Through the utilization of RedTeam Construction Software, the communication between field and office, as well as 
+            overall project management, has been extremely efficient. Companies utilizing the newer construction management 
+            software are more productive with better quality control than those who haven’t made the transition
+        </p>
+
+        <p class="mb-6 text-xl md:text-base">
+            Our business’s success over the years has been built upon developing personal relationships with our project 
+            owners/developers and sharing our expertise through every stage of planning and construction. LCC Builders, has completed 
+            a multitude of projects successfully with satisfied clients. 
+        </p>
+
+        <p class="mb-6 text-xl md:text-base">
+            We are excited to see what the future holds for us and hope you will decide to become a part of our future.
         </p>
     </div>
 @endsection

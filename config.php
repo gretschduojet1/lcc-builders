@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'http://lccbldr.com',
+    'baseUrl' => 'https://lccbldr.com',
     'production' => true,
     'siteName' => 'LCC Builders',
     'siteDescription' => 'Our goal at LCC Builders is to lend our construction knowledge and management expertise to our clients for continuous and successful relationships.',

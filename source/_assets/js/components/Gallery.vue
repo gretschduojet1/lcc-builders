@@ -38,7 +38,7 @@ export default {
     data() {
         return {
 		currentFilter: 'ALL',
-		imagePath: 'http://lccbldr.com/assets/images/gallery/',
+		imagePath: 'https://lccbldr.com/assets/images/gallery/',
 		thumbName: '/lcc_builders_gallery_thumb_',
 		imageName: '/lcc_builders_gallery_',
 		open: false,
